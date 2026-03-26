@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+/* Centers the card on the screen to match the preview */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding-top: 40px;
+}
+
+/* MANDATORY: width, padding, background-color, box-shadow */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* MANDATORY: width */
+img {
+    width: 100%;
+}
+
+/* MANDATORY: padding, background-color, text color, border-radius */
+button {
+    padding: 12px 24px;
+    background-color: #ff5252;
+    color: white;
+    border-radius: 8px;
+    border: none; /* Removes the ugly default browser border */
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
